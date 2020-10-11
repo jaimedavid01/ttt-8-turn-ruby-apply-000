@@ -22,9 +22,7 @@ def move(board, position, first_player = "X")
   board[position] = first_player
 end
 
-def valid_move?(board, position)
-  position.between?(0,8) && !position taken?(board, position)
-end
+
 
 
 
